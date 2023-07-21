@@ -7,6 +7,12 @@ $black-text: #000;
 $green-text: #3e5902;
 $dark-green-text: #172601;
 $btn-font: 40px;
+$child-fontSize: 15px;
+$page-linkTitle:20px;
+$page-linkColor:lightgray;
+$link-color:lightgray;
+$button-color:lightgray;
+$copyright-color:lightgray;
 
 //initialize collor for button
 $green-btn: #77a612;
@@ -23,8 +29,14 @@ $transition-time: 0.5s;
 $transition-time-long: 1000ms;
 
 //paddings margins
-$header-padding : 40px;
-$parent-margin: 10px;
+$header-padding : 40px 0 0 0;
+$parent-margin: 10px 0 0 0;
+$link-padding:0 0 7px 0;
+
+//positioning
+$child-top:10px;
+$child-width:300px;
+$child-right:0px;
 
 
 //Reset all css
