@@ -1,28 +1,27 @@
 @import "Base";
 
 .bg-img {
-    background-image: url(../Images/Worlds-2017-Promo-HD-Wallpaper-Background-Official-Art-Artwork-fan-art-League-of-Legends-lol.jpg);
-    background-size: cover;
-    height: 100vh;
-    backdrop-filter: blur(10px);
-    
-    .logo {
-        display: flex;
-        justify-content: center;
-    }
+  background-image: url(../Images/Worlds-2017-Promo-HD-Wallpaper-Background-Official-Art-Artwork-fan-art-League-of-Legends-lol.jpg);
+  background-size: cover;
+  height: 100vh;
+  backdrop-filter: blur(10px);
 
-    .btn {
-        margin-top: 85px;
-    }
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
 
-    .btn-primary {
-        display: flex;
-        
-    }
+  .btn {
+    margin-top: 85px;
+  }
 
-    .center {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 15px;
-    }
+  .btn-primary {
+    display: flex;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
 }
