@@ -8,44 +8,52 @@
     transform: rotate(180deg);
   }
 }
+body {
+  min-height: 100vh;
+  height: 100%;
+  background-image: url(../Images/Worlds-2017-Promo-HD-Wallpaper-Background-Official-Art-Artwork-fan-art-League-of-Legends-lol.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  backdrop-filter: blur($bg-blur) brightness($bg-brightness);
 
-header {
-  padding: $header-padding;
-  margin: auto;
-  width: max-content;
-  display: flex;
-  align-items: center;
-  button {
-    font-size: $btn-font;
-    background-color: transparent;
-    color: $button-color;
-    transition: $transition-time;
-    cursor: pointer;
+  header {
+    padding: $header-padding;
+    margin: auto;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    button {
+      font-size: $btn-font;
+      background-color: transparent;
+      color: $button-color;
+      transition: $transition-time;
+      cursor: pointer;
 
-    &:hover {
-      transform: rotate(180deg);
+      &:hover {
+        transform: rotate(180deg);
+      }
+    }
+
+    img {
+      width: 300px;
     }
   }
 
-  img {
-    width: 300px;
-  }
-}
-
-.footer {
-  .link {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: $link-color;
-    padding: $link-padding;
-    font-size: $footer-linkSize;
-  }
-  .copyright {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    color: $copyright-color;
+  .footer {
+    .link {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      color: $link-color;
+      padding: $link-padding;
+      font-size: $footer-linkSize;
+    }
+    .copyright {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      color: $copyright-color;
+    }
   }
 }
