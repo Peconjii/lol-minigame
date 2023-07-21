@@ -7,28 +7,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   backdrop-filter: blur($bg-blur) brightness($bg-brightness);
-  header {
-    padding: $header-padding;
-    margin: auto;
-    width: max-content;
-    display: flex;
-    align-items: center;
-    button {
-      font-size: $btn-font;
-      background-color: transparent;
-      color: $button-color;
-      transition: $transition-time;
-      cursor:pointer;
-
-      &:hover {
-        transform: rotate(180deg);
-      }
-    }
-
-    img {
-      width: 300px;
-    }
-  }
 
   .page {
     font-size: $page-font;
@@ -38,7 +16,7 @@ body {
     align-items: center;
     justify-content: center;
 
-     .parent {
+    .parent {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -52,7 +30,7 @@ body {
         transition: transform 0.3s ease;
 
         &:hover {
-          transform: scale(1.120);
+          transform: scale(1.12);
         }
         .child {
           position: absolute;
@@ -68,23 +46,6 @@ body {
           }
         }
       }
-    }
-  }
-  .footer {
-
-    .link {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      text-decoration: none;
-      color: $link-color;
-      padding: $link-padding;
-    }
-    .copyright {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      color:$copyright-color;
     }
   }
 }
