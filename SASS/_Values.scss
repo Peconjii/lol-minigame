@@ -6,6 +6,7 @@ $white-text: #fff;
 $black-text: #000;
 $green-text: #3e5902;
 $dark-green-text: #172601;
+$btn-font: 40px;
 
 //initialize collor for button
 $green-btn: #77a612;
@@ -13,10 +14,18 @@ $green-btn: #77a612;
 //initialize collor for background
 $ligh-yellow-bck: #edf2c2;
 $yellow-bck: #ecf22e;
+$bg-blur: 5px;
+$bg-brightness:0.5;
+$page-font:20px;
 
 //initialize tranzition duration
-$transition-time: 500ms;
+$transition-time: 0.5s;
 $transition-time-long: 1000ms;
+
+//paddings margins
+$header-padding : 40px;
+$parent-margin: 10px;
+
 
 //Reset all css
 * {
